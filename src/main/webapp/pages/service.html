@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Service - Travel and Tour Portal</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+
+    /* Top bar */
+    .top-bar {
+      background: linear-gradient(90deg, #c29cd4, #a87ccf);
+      color: white;
+      font-weight: bold;
+      padding: 6px 0;
+    }
+    .top-bar i {
+      margin-right: 5px;
+    }
+
+    /* Navbar */
+    .navbar-custom {
+      background: linear-gradient(90deg, #3b65aa, #1e3c88);
+    }
+    .navbar-custom .nav-link {
+      color: white !important;
+      font-weight: 500;
+    }
+    .navbar-custom .nav-link:hover {
+      color: #ffd700 !important;
+      transition: 0.3s;
+    }
+
+    /* Hero / Page Heading */
+    .page-title {
+      font-size: 40px;
+      font-weight: 700;
+      text-decoration: underline;
+      text-align: center;
+      margin: 40px 0;
+      color: #1e3c88;
+    }
+
+    /* Service cards */
+    .service-card {
+      background: #f8f9fa;
+      padding: 30px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    .service-card h4 {
+      font-weight: 600;
+      margin-bottom: 15px;
+      color: #3b65aa;
+    }
+
+    .service-card p {
+      text-align: justify;
+      font-weight: 500;
+      color: #333;
+    }
+
+    /* Footer */
+    footer {
+      background: #13093d;
+      color: white;
+      padding: 50px 0 20px;
+    }
+    footer h5 {
+      margin-bottom: 20px;
+      color: #00ffff;
+    }
+    footer ul li {
+      margin-bottom: 8px;
+    }
+    footer ul li:hover {
+      color: #ffd700;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Top bar -->
+<section class="top-bar">
+  <div class="container d-flex justify-content-between">
+    <div><i class="fa fa-phone"></i> +91-6207715404</div>
+    <div><i class="fa fa-envelope-o"></i> keerthijwalkar@gmail.com</div>
+    <div>
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-telegram"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-whatsapp"></i>
+    </div>
+  </div>
+</section>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-custom">
+  <div class="container">
+    <a class="navbar-brand text-white" href="home.html">Travel & Tour Portal</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav gap-4">
+        <li class="nav-item"><a class="nav-link active" href="home.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="service.html">Service</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="btn btn-dark" href="#">Login</a> <a class="btn btn-dark" href="#">Register</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Page Title -->
+<section>
+  <h2 class="page-title">Our Services</h2>
+</section>
+
+<!-- Service Section -->
+<section class="container">
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6">
+      <img src="women.jpg" alt="Travel Assistance" class="img-fluid rounded shadow">
+    </div>
+    <div class="col-md-6">
+      <div class="service-card">
+        <h4>Travel Assistance Services</h4>
+        <p>
+          When you purchase travel insurance, you expect support in case of unexpected events. Travelers can face a range of challenges while on a trip, from medical concerns like needing to find a doctor to non-medical issues such as replacing a lost passport. Our travel assistance services offer multilingual support 24/7, ensuring help is available year-round. Services include medical referrals, hospital admission assistance, emergency evacuation, and coordination for lost luggage or passports.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Exclusive Services Cards -->
+  <div class="row text-center">
+    <div class="col-md-3">
+      <div class="service-card">
+        <h4>Travel Insurance 🛡️</h4>
+        <p>Complete coverage including health, lost luggage, flight delay, and more.</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="service-card">
+        <h4>Flight Booking ✈️</h4>
+        <p>Domestic and international flight ticket booking at the best prices.</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="service-card">
+        <h4>Holiday Packages 🏝️</h4>
+        <p>Ready-made or customizable travel packages for solo, couples, families, and groups.</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="service-card">
+        <h4>Hotel Reservations 🏨</h4>
+        <p>Budget, luxury, or family hotels — book your stay in advance with us.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-3">
+        <h5>About Us</h5>
+        <p>We see a world where travel connects people, creates friendships, and brings dreams to life. Every journey is more than just a trip — it’s an experience worth remembering.</p>
+      </div>
+      <div class="col-md-3">
+        <h5>Quick Links</h5>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+          <li>Service</li>
+          <li>Gallery</li>
+          <li>Our Value</li>
+          <li>Privacy Policy</li>
+          <li>Terms & Conditions</li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5>Details</h5>
+        <p><strong>Address:</strong> A 14/c ACC colony, Low</p>
+        <p><strong>Mobile:</strong> 91-9943567890</p>
+        <p><strong>Email:</strong> keek@gmail.com</p>
+        <p><strong>Website:</strong> Travel.com</p>
+      </div>
+      <div class="col-md-3">
+        <h5>Contact Form</h5>
+        <input type="text" class="form-control mb-2" placeholder="Name">
+        <input type="text" class="form-control mb-2" placeholder="Mobile">
+        <textarea rows="3" class="form-control mb-2" placeholder="Enter Query"></textarea>
+        <button type="button" class="btn btn-success w-100 btn-sm">Submit</button>
+      </div>
+    </div>
+    <hr style="border-color: #555;">
+    <p class="text-center mb-0">&copy; 2026 All Rights Reserved | TourandTravelPortal.com</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
